@@ -170,16 +170,16 @@ static constexpr SSL_CIPHER kCiphers[] = {
     },
 
     // Cipher 0A
-    {
-     SSL3_TXT_RSA_DES_192_CBC3_SHA,
-     "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
-     SSL3_CK_RSA_DES_192_CBC3_SHA,
-     SSL_kRSA,
-     SSL_aRSA,
-     SSL_3DES,
-     SSL_SHA1,
-     SSL_HANDSHAKE_MAC_DEFAULT,
-    },
+    //{
+    // SSL3_TXT_RSA_DES_192_CBC3_SHA,
+    // "TLS_RSA_WITH_3DES_EDE_CBC_SHA",
+    // SSL3_CK_RSA_DES_192_CBC3_SHA,
+    // SSL_kRSA,
+    // SSL_aRSA,
+    // SSL_3DES,
+    // SSL_SHA1,
+    // SSL_HANDSHAKE_MAC_DEFAULT,
+    //},
 
 
     // New AES ciphersuites
